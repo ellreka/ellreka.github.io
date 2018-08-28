@@ -1,0 +1,49 @@
+body {
+  background-color: bisque;
+  font-family: '-apple-system', 'BlinkMacSystemFont','Hiragino Sans','Hiragino Kaku Gothic ProN',
+  "segoe ui",'游ゴシック  Medium','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+  font-size:0.95em;
+  color: #333333;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.social ul {
+  padding-left:0px
+}
+
+.social ul li {
+  display: inline;
+  padding: 0 5px;
+
+}
+
+.social ul li a img {
+  width: 64px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img:hover {
+  transform: translateY(-5px);
+}
