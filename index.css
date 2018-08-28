@@ -38,12 +38,13 @@ section {
 
 .social ul li a img {
   width: 64px;
+
+}
+.social ul li a img:hover {
+  transform: scale(1.1);
 }
 
 a {
   text-decoration: none;
 }
 
-img:hover {
-  transform: translateY(-5px);
-}
