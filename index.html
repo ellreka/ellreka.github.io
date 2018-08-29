@@ -3,24 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=400,initial-scale=1.0" user-scalable=no>
-  <title>ellreka's portfolio</title>
+  <title>ellreka's profile</title>
   <link rel="shortcut icon" href="./img/my_icon.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-
+<nav>
+  <a href="#about">about</a>
+  <a href="#works">works</a>
+  <a href="#links">links</a>
+</nav>
 <div class="main">
-  <section>
-    <h1>About</h1>
+  <section id="#about">
+    <u><h1>About</h1></u>
     <div  class="about">
       <div class="profile">
         <img src="./img/my_icon.png">
+
         <h3 class="name">ellreka</h3>
         <h3 class="name">Shun Tanigome</h3>
         <p>公立高校を6ヶ月で辞めて通信制へ転校</p>
         <p>大学で経営と情報を学ぶため受験勉強中</p>
         <p>ReactNativeとPython3がスキです</p>
+        <p>最近は朝７時に起きる練習をしています・・</p>
       </div>
       <div class="social">
         <ul>
@@ -44,10 +50,10 @@
     </div>
 
   </section>
-  <section>
-    <h1>Works</h1>
+  <section id="works">
+    <u><h1>Works</h1></u>
     <div class="works">
-      <h3>Chrome Extension</h3>
+      <h3>| Chrome Extension |</h3>
       <!-- //ラベル1 -->
       <label for="CE01">オープンレックキャプチャー</label>
       <input type="checkbox" id="CE01" class="cssacc" />
@@ -96,7 +102,7 @@
           </div>
         </div>
       <!-- //ラベル3 -->
-      <h3>LINE BOT</h3>
+      <h3>| LINE BOT |</h3>
       <!-- //ラベル1 -->
       <label for="LB01">トイレマップちゃん</label>
       <input type="checkbox" id="LB01" class="cssacc" />
@@ -114,8 +120,8 @@
     </div>
   </section>
 
-  <section>
-    <h1>Links</h1>
+  <section id="links">
+    <u><h1>Links</h1></u>
     <div class="links">
       <span>
           <i class="fa fa-link" style="font-size:24px;"></i>
@@ -125,13 +131,10 @@
           <i class="fa fa-link" style="font-size:24px;"></i>
           <a href="https://note.mu/ellreka" target="_blank">note</a>
       </span>
-
-
-
-
     </div>
   </section>
 </div>
 
+<footer>©2018 ellreka</footer>
 </body>
 </html>

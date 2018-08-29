@@ -1,10 +1,3 @@
-@font-face {
-  /* font-family: 'misaki_gothic';
-  src: url(./font/misaki_gothic.ttf) */
-  font-family: 'PixelMplus12-Bold';
-  src: url(./font/PixelMplus12-Bold.ttf)
-}
-
 @-webkit-keyframes zoom {
   50% {
     -webkit-transform: scale(1.05);
@@ -32,6 +25,67 @@
   }
 }
 
+@-webkit-keyframes gelatine {
+  from,to {
+    -webkit-transform: scale(1, 1);
+  }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+  }
+  from,to {
+    -webkit-transform: scale(1, 1);
+  }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+  }
+}
+@keyframes gelatine {
+  from,to {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+    transform: scale(0.95, 1.05);
+  }
+  from,to {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+    transform: scale(0.95, 1.05);
+  }
+}
+
 body {
   background-color: bisque;
   font-family: '-apple-system', 'BlinkMacSystemFont','Hiragino Sans','Hiragino Kaku Gothic ProN',
@@ -40,12 +94,21 @@ body {
   color: #333333;
 }
 
+nav {
+  font-size: 0.9em;
+}
+
+nav a {
+  margin: 10px;
+  color: #333333;
+}
+
 section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  padding: 20px;
 }
 
 .profile {
@@ -87,8 +150,8 @@ section {
 
 }
 .social ul li a img:hover {
-  -webkit-animation: zoom .3s;
-  animation: zoom .3s;
+  -webkit-animation: gelatine .3s;
+  animation: gelatine .3s;
 }
 
 .works {
@@ -151,5 +214,13 @@ section {
 
 a {
   text-decoration: none;
+  color: #428bca;
 }
 
+footer {
+  text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    padding-bottom: 40px;
+}
