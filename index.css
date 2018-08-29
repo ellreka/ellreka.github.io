@@ -95,6 +95,10 @@ section {
   max-width: 400px;
 }
 
+.works h3 {
+  text-align: center;
+}
+
 .works label {
   display: block;
   margin: 1.5px 0;
@@ -102,6 +106,7 @@ section {
   color :#333333;
   cursor :pointer;
   transition: .3s;
+  padding-left: 80px;
 }
 
 .works label:hover {
@@ -136,7 +141,8 @@ section {
 }
 
 .links {
-  width: 400px;
+  display: flex;
+  flex-direction: column;
 }
 
 .links ul li {
