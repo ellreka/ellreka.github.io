@@ -147,11 +147,20 @@ section {
 
 .social ul li a img {
   width: 64px;
-
 }
+
 .social ul li a img:hover {
   -webkit-animation: gelatine .3s;
   animation: gelatine .3s;
+}
+
+.favorite {
+  display: flex;
+  flex-direction: column;
+}
+
+.favorite ul li {
+  list-style-type: none;
 }
 
 .works {
